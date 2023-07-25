@@ -1,0 +1,30 @@
+
+.card-container-course{
+     width: 100%;
+     max-width: 80rem !important;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2rem;
+     align-items: stretch;
+     justify-content: center;
+     padding-bottom: 20px;
+}
+
+.course-card:hover{
+     background-color: #eee;
+}
+
+.course-card-body{
+     color: #000;
+}
+
+
+@media screen and (max-width:425px) {
+     .card-container-course{
+        padding: 0 15px;
+     }
+     .course-card{
+          width: 100% !important;
+     }
+}
